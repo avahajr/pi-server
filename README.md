@@ -1,24 +1,19 @@
 # Pi Minecraft server
 
+## Prerequisites
+
+- Docker
+
 ## Getting started
 
-First, unpack the world tar.
+First, unzip `world.zip`. This file is the singleplayer world we want to continue our multiplayer server from.
 
+```bash
+unzip world.zip
 ```
+
+Then, start up the container which runs the server:
+
+```bash
 docker compose up
 ```
-
-```
-cp -r world_nether/
-```
-
-```
-mkdir world_nether
-mkdir world_the_end
-
-mv world/DIM-1/* world_nether
-mv world/DIM1/* world_the_end
-```
-
-Could not move folder world/DIM-1 to world_nether/DIM-1!
-Could not move folder world/DIM1 to world_the_end/DIM1!
