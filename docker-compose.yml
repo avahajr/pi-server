@@ -11,11 +11,12 @@ services:
       EULA: "TRUE"
       TYPE: "PAPER"
       MAX_PLAYERS: "5"
-      MOTD: "Ice Spike"
+      MOTD: "Hi Hannah!"
       OPS: |-
         hajra
       ENABLE_WHITELIST: "true"
       WHITELIST: |-
         hajra
+        handstand4012
     volumes:
       - ./world:/data/world
