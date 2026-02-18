@@ -13,7 +13,7 @@ services:
       MAX_MEMORY: "4G"
       TYPE: "PAPER"
       MAX_PLAYERS: "5"
-      MOTD: "Hi Hannah!"
+      MOTD: "Did you know I can change this message?"
       OPS: |-
         hajra
       ENABLE_WHITELIST: "true"
