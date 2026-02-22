@@ -10,10 +10,10 @@ services:
     environment:
       EULA: "TRUE"
       INIT_MEMORY: "2G"
-      MAX_MEMORY: "4G"
+      MAX_MEMORY: "6G"
       TYPE: "PAPER"
       MAX_PLAYERS: "5"
-      MOTD: "Did you know I can change this message?"
+      MOTD: "Welcome Alyssa! :)"
       OPS: |-
         hajra
       ENABLE_WHITELIST: "true"
