@@ -13,7 +13,7 @@ services:
       MAX_MEMORY: "6G"
       TYPE: "PAPER"
       MAX_PLAYERS: "5"
-      MOTD: "Welcome Alyssa! :)"
+      MOTD: "Hannah and Ava are both palindromes..."
       OPS: |-
         hajra
       ENABLE_WHITELIST: "true"
